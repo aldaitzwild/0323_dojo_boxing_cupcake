@@ -1,0 +1,19 @@
+Dojo Envoi de cupcakes :
+
+Le but du jeu, en fonction du nombre de cupcakes commandé savoir quel type de boites
+seront utilisé pour répartir la commande.
+
+Il y a 3 type de boite : 
+    Small : 2 cupakes max
+    Medium : 5 cupakes max
+    Large : 8 cupakes max
+
+Important : On essaiera d'optimiser le nombre de boite utilisé, 
+en utilisant le moins de boite possible 
+(quitte a ce que les boite ne soit pas complétement rempli)
+
+    Exemple 1 : 7 cupcakes => 1 container L (and 1 empty slot)
+    Exemple 2 : 14 cupcakes => 2 containers L
+    Exemple 3 : 16 => 2 containers L
+    Exemple 4 : 18 => 2 containers L, 1 container S
+    Exemple 5 : 20 => 2 containers L, 1 container M (1 empty slot)

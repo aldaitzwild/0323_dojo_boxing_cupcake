@@ -1,0 +1,17 @@
+{
+    "name": "thoma/0323_dojo_boxing_muffins",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Aldaitz",
+            "email": "thomas.aldaitz@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
